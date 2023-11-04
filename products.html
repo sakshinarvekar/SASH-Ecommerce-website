@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products - SASH </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    
+    </head>
+    <body style="background-color:whitesmoke;">
+
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src= "images/sashlogo.jpg" alt= "logo" width="100px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href= "index.html">Home</a></li>
+                        <li><a href= "products.html">Products</a></li>
+                        <li><a href= "">About</a></li>
+                        <li><a href= "account.html">Account</a></li>
+                    </ul>
+                    <a href="cart.html"><img src="images/cartt.png" width="25px" height="25px"></a>
+                    <img src="images/menu.png" class= "menu-icon" onclick="menutoggle()" width="25px" height="25px">
+                </nav>
+            </div>
+        </div>
+        
+        
+
+    <div style= color:rgb(68,58,64) class="small-container"> 
+
+
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting </option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+
+
+
+        <div class="row" height="400" width="500" >
+            <div class="col-4"><a href="productsdetails.html"><img src="images/blackscrunchie.jpeg" alt="warmgrey"></a>
+            <h4>Classisc Black Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/pearlwhite.jpeg" alt="scarletred">
+            <h4>Pearl White Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/champagneyellowjpeg.jpeg" alt="pearlwhite">
+            <h4>Champagne Yellow Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/steelgrey.jpeg" alt="copperred">
+            <h4>Steel Grey Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/scarletred.jpeg" alt="copperred">
+            <h4>Scarlet Red Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/mermaidblue.jpeg" alt="copperred">
+            <h4>Mermaid Blue Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/warmgrey.jpeg" alt="copperred">
+            <h4>Warm Grey Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/pink.jpeg" alt="copperred">
+            <h4>Dusty Rose Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4"><img src="images/cobaltblue.jpeg" alt="copperred">
+            <h4>Cobalt Blue Scrunchie</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span> &#8594; </span>
+        </div>
+
+        </div>
+        
+
+        <!----Footer---->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col1">
+                        <img src="images/sashlogo.jpg">
+                        <h3>WELCOME TO OUR STORE</h3>
+                        <p>Watch out folks, cause this store is the best thing on the planet. 
+                            Shop, have fun, and enjoy. Contact us if you need any help with shopping.</p>
+                    </div>
+                    <div class="footer-col2">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms Of Services</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 - Sash Tech</p>
+            </div>
+        </div>
+
+
+        
+        <!-----js for toggle menu---->
+        <script>
+            var menuitems = document.getElementById("menuitems");
+
+            menuitems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(menuitems.style.maxHeight == "0px")
+                {
+                    menuitems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    menuitems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+    </body>
+</html>
