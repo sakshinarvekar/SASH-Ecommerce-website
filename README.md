@@ -2,6 +2,18 @@
 
 SASH is a static e-commerce website designed to showcase and sell a variety of hair accessories. The website provides users with a platform to browse through different categories of hair accessories, view product details, and make purchases.
 
+### Home Page
+![Homepage](gitimg/homepage.png)
+
+### Login Page
+![Login Page](gitimg/loginpage.png)
+
+### Product Page
+![Product Page](gitimg/product.png)
+
+### Cart Page
+![Cart Page](gitimg/cartpage.png)
+
 ## Features
 
 - **Product Display**: Browse through a selection of hair accessories, including hair clips, headbands, scrunchies, and more.
